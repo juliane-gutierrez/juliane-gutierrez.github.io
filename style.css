@@ -6,20 +6,76 @@ color: var(--black);
 scroll-behavior: smooth;
 }
 
-
+.body{ 
+    background-color: #ACA59B;
+}
 
 button {
     width: 100px;
     
 }
-.profilepic{
+.overlay{
     width: 100px;
     
 }
-h1{
 
-}
-.background{
+.backgroundimg{
+    width:1000px
+    
 /* transparent picture behind profilepicture/logo*/
 
+}
+
+.image-container{
+    position:relative;
+    width: 5000px;
+    height: 200px;
+}
+
+.image-container .backgroundimg{
+    width: 28%;
+    height: 100%;
+    display: block;
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 2%;
+    height: 60%;
+    pointer-events: none;
+}
+
+h1 {
+    background-color: #536B85;
+    opacity: 0.6;
+    text: #ACA59B;
+}
+
+
+.btn.img-only{
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    background-color: none;
+}
+
+.btn.img-only img{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   box-shadow: 2px 4px;
+   color:rgb(189, 187, 187)
+}
+
+
+.flex{
+    display: flex;
+
+}
+
+
+.container{
+    display: flex;
 }
