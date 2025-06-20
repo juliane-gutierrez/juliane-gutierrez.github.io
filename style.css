@@ -6,9 +6,18 @@ color: var(--black);
 scroll-behavior: smooth;
 }
 
-.body{ 
-    background-color: #ACA59B;
+.mydiv{
+    margin: 0px;
+    padding: 0px;
+    border: 20px solid #536B85;
+    box-sizing: border-box;
+    min-height: 100vh;
 }
+.body{ 
+    background-color: white
+   
+    } 
+    /* background color not changing */
 
 button {
     width: 100px;
@@ -19,12 +28,6 @@ button {
     
 }
 
-.backgroundimg{
-    width:1000px
-    
-/* transparent picture behind profilepicture/logo*/
-
-}
 
 .image-container{
     position:relative;
@@ -32,6 +35,13 @@ button {
     height: 200px;
 }
 
+.hero{
+    background-color: #ACA59B;
+    padding: 56px 16px;
+    border-radius: 10px;
+    margin: 5px 10px;
+   
+}
 .image-container .backgroundimg{
     width: 28%;
     height: 100%;
@@ -39,18 +49,19 @@ button {
 }
 
 .overlay{
-    position:absolute;
-    top:0;
-    left:0;
+    position: relative;
+    top: 0;
+    left: 0;
     width: 2%;
     height: 60%;
     pointer-events: none;
+    
 }
 
 h1 {
-    background-color: #536B85;
+    background-color: #ACA59B;
     opacity: 0.6;
-    text: #ACA59B;
+    color: #851717;
 }
 
 
@@ -59,6 +70,8 @@ h1 {
     cursor: pointer;
     transition: transform 0.2s ease;
     background-color: none;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .btn.img-only img{
@@ -72,10 +85,21 @@ h1 {
 
 .flex{
     display: flex;
+    flex-direction:row; 
+    justify-content: center;
 
 }
 
 
 .container{
     display: flex;
+     flex-direction:row; 
+    justify-content: center;
+
+}
+.icon{
+    display: inline-flex;
+    flex-direction:row; 
+    justify-content: center;
+
 }
