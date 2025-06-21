@@ -6,15 +6,15 @@
 
 ### Content
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
-- [ ] At least one profile picture
-- [ ] Biography (at least 100 words)
+- [ ] At least one profile picture OKAY
+- [ ] Biography (at least 100 words) OKAY
 - [ ] Functional Contact Form
-- [ ] "Projects" section 
+- [ ] "Projects" section OKAY
 - [ ] Links to external sites, e.g. GitHub and LinkedIn. 
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
-- [ ] At least 2 web pages.
+- [ ] At least 2 web pages. OKAY
 - [ ] Version controlled with Git
 - [ ] Deployed on GitHub pages.
 - [ ] Implements responsive design principles.

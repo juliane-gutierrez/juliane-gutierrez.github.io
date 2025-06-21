@@ -1,7 +1,7 @@
 html{
 box-sizing: border-box;
-font-size: 16px;
-font-family: "inter" sans-serif;
+font-size: 18px;
+font-family: "inter", sans-serif;
 color: var(--black);
 scroll-behavior: smooth;
 }
@@ -17,7 +17,13 @@ scroll-behavior: smooth;
     background-color: white
    
     } 
-    /* background color not changing */
+ 
+@media {}
+
+p {
+    color: #4D3C2A;
+    text-indent: 50px;
+}
 
 button {
     width: 100px;
@@ -93,13 +99,39 @@ h1 {
 
 .container{
     display: flex;
-     flex-direction:row; 
-    justify-content: center;
-
-}
-.icon{
-    display: inline-flex;
     flex-direction:row; 
     justify-content: center;
 
 }
+
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction:row
+  
+
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.icon{
+    display: inline-flex;
+    flex-direction:row; 
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+
+}
+
+.removedot{
+    list-style-type: none;
+}
+
+/* there are a lot of classes that I'm not sure if it's attached to anything, but I'll review soon */

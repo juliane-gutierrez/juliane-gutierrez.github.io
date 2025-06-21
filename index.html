@@ -17,10 +17,10 @@
      <!-- make this fixed when scrolling the page -->
 
        <nav class="desktop-nav" aria-label="Primary">
-           <ul>
+           <ul class="removedot">
                <li><a href="#">About me</a></li>
               <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="contact.html">Contact</a></li>
            </ul>
         </nav>
 
@@ -37,50 +37,67 @@
                <section>
                 <h2>About me</h2>
                  <p>
-                   "Hello, I'm Juliane. 
-                    I originally came from an administration background, giving support to executives in an office environment in South America. 
-                    Since I can remember I wanted to work with technology, and in Australia, I was able to start my career as a Web Developer.  
-                    Mother of 2 living in Western Australia since 2021, I've been improving myself in the tech industry, with knowledge through HTML, CSS, Python, React and others.
-                    I was able to secure a spot on the She Codes Plus Boot Camp in Perth and I continue to develop my professional learning experience amongst other wonderful women."
+                    Hello, I'm Juliane. 
+                    I originally came from an administration background, giving support to 
+                    executives in an office environment in South America. 
+                    Since I can remember I wanted to work with technology, 
+                    and in Australia, I was able to start my career as a Web Developer.  
+                    Mother of 2 living in Western Australia since 2021, I've been improving 
+                    myself in the tech industry, with knowledge through HTML, CSS, Python, 
+                    React and others.
+                    I was able to secure a spot on the She Codes Plus Boot Camp in Perth and 
+                    I continue to develop my professional learning experience amongst other 
+                    wonderful women.
+                    
                  </p>
                </section> 
 
                <section>
                 <h2>Portfolio</h2>
-                <a>
-                 <href="#" class="btn img-only">
-                    <img src="img/github.jpg" alt="github button" >
-                </a>   
 
+                <nav>
+                <div class="flex-container">
+                <ul class="container removedot btn img-only">
+                <li><a href="https://github.com/juliane-gutierrez" target="_blank">
+                <div><img src="img/github.jpg" alt="Github"></div></a></li> 
+               
                  <a>
                  <href="#" class="btn img-only">
-                    <img src="img/html.jpg" alt="html logo" >
-                 </a> 
+                 <div><img src="img/html.jpg" alt="html logo" class="btn img-only"></div></a> 
 
                 <a>
                  <href="#" class="btn img-only">
-                    <img src="img/css.jpg" alt="css logo" >
-                </a>
-               </section>
+                 <div><img src="img/css.jpg" alt="css logo" class="btn img-only"></div></a>
+              
+                </div>
 
-                <div this will be a flexbox that is row on desktop>
-                <ul>
-                <li><i>html</i><span>text</span><a></a></li>
-                <li><i>css</i><span>text</span><a></a></li>  
-                <li><i>html</i><span>text</span><a></a></li>   
-                </ul>
+                <nav>
+                <div class="flex-container">
+                <ul class="container removedot">
+                <a>
+                 <href="#" class="btn img-only">
+                 <div><img src="img/coming.jpg" alt="coming soon logo" class="btn img-only"></div></a>
 
-            </h2>
-        </section>
+                    <a>
+                 <href="#" class="btn img-only">
+                 <div><img src="img/coming.jpg" alt="coming soon logo" class="btn img-only"></div></a>
+
+                    <a>
+                 <href="#" class="btn img-only">
+                 <div><img src="img/coming.jpg" alt="coming soon logo" class="btn img-only"></div></a>
+            </ul></nav>
+            </section>
+
 
     </main>
 
-    <footer class="flex container">
+    <footer class="flex-container-footer">
         <nav>
-            <ul>
-                <li><a href="#"><img src="img/linkedin.jpg" alt="Linkedin" class="icon"></a></li>
-                <li><a href="#"><img src="img/github.jpg" alt="Github" class="icon"></a></li>
-                 <li><a href="#"><img src="img/email.jpg" alt="Contact" class="icon"></a></li>
+            <ul class="container removedot">
+                <li><a href="https://www.linkedin.com/in/juliane-gutierrez-41718252/" target="_blank"><img src="img/linkedin.jpg" alt="Linkedin" class="icon"></a></li> 
+                <li><a href="https://github.com/juliane-gutierrez" target="_blank"><img src="img/github.jpg" alt="Github" class="icon"></a></li>
+                 <li><a href="mailto:developerjuliane@gmail.com" target="_blank"><img src="img/email.jpg" alt="Contact" class="icon"></a></li>
+                                 <!-- how to make the link to open in a different page? -->
             </ul>
         </nav>
 
