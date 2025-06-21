@@ -8,6 +8,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <title>Juliane Gutierrez</title>
  </head>
 
@@ -15,15 +16,24 @@
     <header>
      <h1>Juliane Gutierrez</h1>
      <!-- make this fixed when scrolling the page -->
-
-       <nav class="desktop-nav" aria-label="Primary">
-           <ul class="removedot">
-               <li><a href="#">About me</a></li>
+        <div class="hamburger">
+            <div class="hamburger-toggle">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle">
+                    <span>Menu</span>
+                    <i class="material-icons menu-icon">menu</i>
+                    <i class="material-icons close-icon">close</i>
+                    </label>
+                    </div>
+       <nav class="drawer">
+           <ul class="removedot uppercase">
+            
+              <li><a href="#">About me</a></li>
               <li><a href="#">Portfolio</a></li>
               <li><a href="contact.html">Contact</a></li>
            </ul>
-        </nav>
-
+           </nav></div>
+        
     </header>
     <main>
         <section class="hero" >
@@ -35,7 +45,7 @@
             
 
                <section>
-                <h2>About me</h2>
+                <h2 class="herotwo">About me</h2>
                  <p>
                     Hello, I'm Juliane. 
                     I originally came from an administration background, giving support to 
