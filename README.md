@@ -1,6 +1,6 @@
 #  juliane-gutierrez - Portfolio Task
 ​
-[My portfolio site](lhttp://127.0.0.1:5500/index.html)
+[My portfolio site](juliane-gutierrez.github.io)
 ​
 ## Project Requirements
 
@@ -8,17 +8,18 @@
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
 - [ ] At least one profile picture OKAY
 - [ ] Biography (at least 100 words) OKAY
-- [ ] Functional Contact Form
+- [ ] Functional Contact Form OKAY
 - [ ] "Projects" section OKAY
-- [ ] Links to external sites, e.g. GitHub and LinkedIn. 
+- [ ] Links to external sites, e.g. GitHub and LinkedIn. OKAY
+<!-- I believe its all done, with some upgrade I want to do, as adding my index page link on my h1 -->
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 
 - [ ] At least 2 web pages. OKAY
-- [ ] Version controlled with Git
-- [ ] Deployed on GitHub pages.
-- [ ] Implements responsive design principles.
-- [ ] Uses semantic HTML.
+- [ ] Version controlled with Git OKAY?
+- [ ] Deployed on GitHub pages. OKAY
+- [ ] Implements responsive design principles. OKAY
+- [ ] Uses semantic HTML. OKAY?
 
 ### Bonus (optional)
  Add a short paragraph describing the features below, if you included any. 
@@ -32,6 +33,14 @@
 > 
 > You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-####  image_title_goes_here 
-![Put a description of your image here](./relative_path_to_file)
+####  julianewireframe 
+![Screenshot of my wireframe](img/julianewireframe.png)
 
+####  julianeprojectscreenshot
+![Screenshot of my main page](img/julianeprojectscreenshot.png)
+
+####  julianescreenshotcontactpage
+![Screenshot of my contact page with form page](img/julianescreenshotcontactpage.png)
+
+####  julianefooterlinks
+![Screenshot of my footer showing linkedin link](img/julianefooterlinks.png)
