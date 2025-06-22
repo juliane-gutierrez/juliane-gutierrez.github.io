@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<page class="page">
  <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <title>Juliane Gutierrez</title>
-   <nav><a href="index.html" Target="_self" alt="Landing" ></a></nav>
-   <!-- tried to add my home page link into my profile name -->
+   <a href="index.html" Target="_self" alt="Landing" ></a>
+<!-- tried to add my home page link into my profile name -->
  </head>
 
  <body class="body">
     <header>
      <h1>Juliane Gutierrez</h1>
      <!-- make this fixed when scrolling the page -->
-
-       <nav class="desktop-nav" aria-label="Primary">
-           <ul>
-               <li><a href="#">About me</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+        <div class="hamburger">
+            <div class="hamburger-toggle">
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle">
+                    <span>Menu</span>
+                    <i class="material-icons menu-icon">menu</i>
+                    <i class="material-icons close-icon">close</i>
+                    </label>
+                    </div>
+       <nav class="drawer">
+           <ul class="removedot uppercase">
+            
+              <li><a href="#aboutme">About me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <!-- I tried to make an anchor link to this h2 of the index page -->
            </ul>
-        </nav>
-
+           </nav></div>
+        
     </header>
-
-     <main>
+    <main>
         <section class="hero" >
             <div class="image-container" > 
 
@@ -35,7 +46,7 @@
             </section> 
 
              <section>
-                <h2>Contact me</h2>
+              <h2>Contact me</h2>
                 
             <form action="#">
             <label for="fname">First name</label><br>
@@ -56,6 +67,23 @@
             <label for="message">Message</label></label><br> 
             <textarea name="message" rows="10" cols="30"></textarea><br><br>
             <a href="mailto:developerjuliane@gmail.com"></a>
+            <!-- I added the label for here, but not sure why it's not prompting when clicking on 
+             "Message" -->
             
             <input type="submit" name="type" title="Submit Message">
       </form>
+
+      <footer class="flex-container-footer">
+        <nav>
+            <ul class="container removedot">
+                <li><a href="https://www.linkedin.com/in/juliane-gutierrez-41718252/" target="_blank"><img src="img/linkedin.jpg" alt="Linkedin" class="icon"></a></li> 
+                <li><a href="https://github.com/juliane-gutierrez" target="_blank"><img src="img/github.jpg" alt="Github" class="icon"></a></li>
+                 <li><a href="mailto:developerjuliane@gmail.com" target="_blank"><img src="img/email.jpg" alt="Contact" class="icon"></a></li>
+                                 <!-- how to make the link to open in a different page? Answer: Taget-->
+            </ul>
+        </nav>
+
+    </footer>
+     </body>
+</page>
+</html>

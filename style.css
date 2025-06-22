@@ -57,35 +57,35 @@ button {
     width: 100px;
     
 }
-.overlay{
-    width: 100px;
-    align-items: center;
-    
-}
+/* button added on style, but not currently on any pages */
+
+
 
 
 .image-container{
     position:relative;
     width: 5000px;
     height: 200px;
+    align-content: center;
+    justify-content: center;
+
    
 }
+/* on my profile picture, I have no clue why it's not centered*/
 
 .hero{
     background-color: #ACA59B;
     padding: 56px 16px;
     border-radius: 10px;
     margin: 5px 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+   
    
 }
 
 
-
-.image-container .backgroundimg{
-    width: 28%;
-    height: 100%;
-    display: block;
-}
 
 .overlay{
     position: relative;
@@ -94,8 +94,13 @@ button {
     width: 2%;
     height: 60%;
     pointer-events: none;
+    align-items: center;
+    justify-content: center;
     
 }
+/* used to overlay my profile picture in the box (first I used an image as a background, so I tried 
+to overlay that picture */
+
 
 h1 {
     background-color: var(--timberwolf);
@@ -104,18 +109,18 @@ h1 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
+/* header */
 
 h2 {
     color: #4D3C2A;
     text-align: center;
     
 }
+/* used on <main> <section> */
 
-.uppercase {
-    
-}
 
-.btn.img-only{
+
+.btnimg-only{
     border: none;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -123,6 +128,8 @@ h2 {
     flex-direction: row;
     justify-content: center;
 }
+/* Im a bit confused with these 2 (btn.img-only and btn.img-only img. I realised I added a space 
+between words and when I delete it, it messes up with the layout of the portfolio icons */
 
 .btn.img-only img{
    width: 180px;
@@ -133,12 +140,6 @@ h2 {
 }
 
 
-.flex{
-    display: flex;
-    flex-direction:row; 
-    justify-content: center;
-
-}
 
 
 .container{
@@ -163,7 +164,8 @@ h2 {
   padding: 20px;
   font-size: 30px;
 }
-
+/* completly lost where this is applicable. I inspected the website and I couldn't figure it out
+if this one was being used */
 
 .icon{
     display: inline-flex;
@@ -173,10 +175,12 @@ h2 {
     height: 40px;
 
 }
+/* used on footer icons */
 
 .removedot{
     list-style-type: none;
 }
+/* its to remove the dots from the lists */
 
 /* there are a lot of classes that I'm not sure if it's attached to anything, but I'll review soon */
 
